@@ -1,0 +1,14 @@
+.taskInputBox {
+  display: flex;
+  width: 100%;
+
+  & > input {
+    padding: 10px;
+    flex: 1;
+  }
+
+  button {
+    margin-left: 10px;
+    border: 1px solid #ccc;
+  }
+}

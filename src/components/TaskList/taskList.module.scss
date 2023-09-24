@@ -1,0 +1,30 @@
+.taskList {
+  margin-top: 25px;
+}
+
+.taskGroup {
+  display: flex;
+  align-items: center;
+
+  & > input {
+    cursor: pointer;
+  }
+
+  & > span {
+    color: #000;
+    margin-left: 20px;
+  }
+
+  .btnBox {
+    flex-shrink: 0;
+    margin-left: auto;
+
+    & > button {
+      border: 1px solid orangered;
+
+      & + button {
+        margin-left: 10px;
+      }
+    }
+  }
+}
